@@ -8,26 +8,40 @@ body{
 }
 .box1{
     /* border: 2px rgb(0, 0, 0) solid; */
-    background-color: #f8f7f5;
+    background-color: #d9d9d8;
+    
     width: max-content;
     height: max-content;
     padding: 10px;
     margin: 20px;
     border-radius: 15px;
-    box-shadow: 0px 5px 20px 5px rgb(223, 223, 223);
+    box-shadow: 10px 5px 20px 0px #777776;;
 }
 p{
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.5px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5px;
     margin: 5px;
     margin-bottom: -20px;
+    text-align: center;
 }
 
 .parent{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* padding: 5px; */
+    color: white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: 'Times New Roman', Times, serif;
 }
