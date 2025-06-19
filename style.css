@@ -1,6 +1,5 @@
 body{
-    background-color: #f8f7f5;
-    background-image: url("favicon.png");
+   background: linear-gradient(to bottom, #c689d6, #9f8fde);
     background-repeat: no-repeat;
     background-position: center;
     backface-visibility: hidden;
