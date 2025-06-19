@@ -2,7 +2,9 @@ body{
    background: linear-gradient(to bottom, #c689d6, #9f8fde);
     background-repeat: no-repeat;
     background-position: center;
-    backface-visibility: hidden;
+    height: 100vh;
+
+    
 }
 .box1{
     /* border: 2px rgb(0, 0, 0) solid; */
@@ -12,7 +14,7 @@ body{
     padding: 10px;
     margin: 20px;
     border-radius: 15px;
-    box-shadow: 10px 10px 10px 10px rgb(223, 223, 223);
+    box-shadow: 10px 10px 50px 10px rgb(223, 223, 223);
 }
 p{
     font-weight: 500;
