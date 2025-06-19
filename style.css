@@ -1,13 +1,18 @@
 body{
     background-color: #f8f7f5;
+    background-image: url("favicon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    backface-visibility: hidden;
 }
 .box1{
     /* border: 2px rgb(0, 0, 0) solid; */
+    background-color: #f8f7f5;
     width: max-content;
     height: max-content;
     padding: 10px;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 10px 10px 10px 10px rgb(223, 223, 223);
 }
 p{
@@ -18,4 +23,10 @@ p{
     padding: 5px;
     margin: 5px;
     margin-bottom: -20px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
