@@ -1,5 +1,5 @@
 body{
-   background: linear-gradient(to bottom, #c689d6, #9f8fde);
+   /* background: linear-gradient(to bottom, #c689d6, #9f8fde); */
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -8,7 +8,7 @@ body{
 }
 .box1{
     /* border: 2px rgb(0, 0, 0) solid; */
-    background-color: #d9d9d8;
+    /* background-color: #d9d9d8; */
     
     width: max-content;
     height: max-content;
@@ -30,7 +30,7 @@ p{
 
 .parent{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .footer{
