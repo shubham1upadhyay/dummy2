@@ -1,0 +1,13 @@
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* margin-top: 20px; */
+}
